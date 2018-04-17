@@ -1,0 +1,8 @@
+"D:\Programs\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\School\Homework\ECE_4122\Project\FinalProject
+-- Could NOT find Vulkan (missing: VULKAN_INCLUDE_DIR) 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Using Win32 for window creation
+-- GLM is a header only library, no need to build it. Set the option GLM_TEST_ENABLE with ON to build and run the test bench
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug

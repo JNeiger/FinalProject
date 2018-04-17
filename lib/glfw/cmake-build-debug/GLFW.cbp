@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLFW"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMake\;CMake Files\CMake\modules\;CMake Files\src\;CMake Files\examples\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/boing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 boing"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boing/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/boing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 boing/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/simple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 simple"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/simple.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 simple/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/gears.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gears"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gears/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/gears.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gears/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/wave.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 wave"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wave/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/wave.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 wave/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/particles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 particles"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="particles/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/particles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 particles/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/heightmap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 heightmap"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="heightmap/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/heightmap.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 heightmap/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/splitview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 splitview"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="splitview/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/splitview.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 splitview/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/clipboard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clipboard"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clipboard/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/clipboard.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clipboard/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/joysticks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 joysticks"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="joysticks/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/joysticks.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 joysticks/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 events"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="events/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/events.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 events/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/msaa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 msaa"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="msaa/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/msaa.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 msaa/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/iconify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 iconify"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iconify/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/iconify.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 iconify/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/gamma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 gamma"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gamma/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/gamma.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 gamma/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 glfwinfo"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfwinfo/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/glfwinfo.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 glfwinfo/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/monitors.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 monitors"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monitors/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/monitors.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 monitors/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/reopen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 reopen"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reopen/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/reopen.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 reopen/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/cursor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 cursor"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cursor/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/cursor.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 cursor/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/empty.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 empty"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="empty/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/empty.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 empty/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/icon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 icon"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="icon/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/icon.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 icon/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/sharing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 sharing"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sharing/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/sharing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 sharing/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/tearing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tearing"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tearing/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/tearing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 tearing/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/threads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 threads"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="threads/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/threads.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 threads/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/timeout.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 timeout"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="timeout/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/timeout.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 timeout/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/title.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 title"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="title/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/title.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 title/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/windows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 windows"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="windows/fast">
+				<Option output="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/windows.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps"/>
+					<Add directory="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 windows/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps/getopt.c">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="tearing"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps/getopt.h">
+			<Option target="particles"/>
+			<Option target="clipboard"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="tearing"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps/glad.c">
+			<Option target="boing"/>
+			<Option target="simple"/>
+			<Option target="gears"/>
+			<Option target="wave"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="clipboard"/>
+			<Option target="joysticks"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="reopen"/>
+			<Option target="cursor"/>
+			<Option target="empty"/>
+			<Option target="icon"/>
+			<Option target="sharing"/>
+			<Option target="tearing"/>
+			<Option target="threads"/>
+			<Option target="timeout"/>
+			<Option target="title"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps/glad/glad.h">
+			<Option target="boing"/>
+			<Option target="simple"/>
+			<Option target="gears"/>
+			<Option target="wave"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+			<Option target="clipboard"/>
+			<Option target="joysticks"/>
+			<Option target="events"/>
+			<Option target="msaa"/>
+			<Option target="iconify"/>
+			<Option target="gamma"/>
+			<Option target="glfwinfo"/>
+			<Option target="monitors"/>
+			<Option target="reopen"/>
+			<Option target="cursor"/>
+			<Option target="empty"/>
+			<Option target="icon"/>
+			<Option target="sharing"/>
+			<Option target="tearing"/>
+			<Option target="threads"/>
+			<Option target="timeout"/>
+			<Option target="title"/>
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps/tinycthread.c">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/deps/tinycthread.h">
+			<Option target="particles"/>
+			<Option target="empty"/>
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/boing.c">
+			<Option target="boing"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/gears.c">
+			<Option target="gears"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/glfw.rc">
+			<Option target="boing"/>
+			<Option target="simple"/>
+			<Option target="gears"/>
+			<Option target="wave"/>
+			<Option target="particles"/>
+			<Option target="heightmap"/>
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/heightmap.c">
+			<Option target="heightmap"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/particles.c">
+			<Option target="particles"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/simple.c">
+			<Option target="simple"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/splitview.c">
+			<Option target="splitview"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/wave.c">
+			<Option target="wave"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_tls.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/clipboard.c">
+			<Option target="clipboard"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/cursor.c">
+			<Option target="cursor"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/empty.c">
+			<Option target="empty"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/events.c">
+			<Option target="events"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/gamma.c">
+			<Option target="gamma"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/glfwinfo.c">
+			<Option target="glfwinfo"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/icon.c">
+			<Option target="icon"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/iconify.c">
+			<Option target="iconify"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/joysticks.c">
+			<Option target="joysticks"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/monitors.c">
+			<Option target="monitors"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/msaa.c">
+			<Option target="msaa"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/reopen.c">
+			<Option target="reopen"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/sharing.c">
+			<Option target="sharing"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/tearing.c">
+			<Option target="tearing"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/threads.c">
+			<Option target="threads"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/timeout.c">
+			<Option target="timeout"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/title.c">
+			<Option target="title"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/windows.c">
+			<Option target="windows"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/CMake/modules/FindVulkan.cmake">
+			<Option virtualFolder="CMake Files\CMake\modules\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

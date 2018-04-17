@@ -1,0 +1,29 @@
+"D:\Programs\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\School\Homework\ECE_4122\HW5\glfw-3.2.1
+-- The C compiler identification is GNU 7.2.0
+-- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/gcc.exe -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - found
+-- Found Threads: TRUE  
+-- Could NOT find Vulkan (missing: VULKAN_INCLUDE_DIR) 
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Looking for dinput.h
+-- Looking for dinput.h - found
+-- Looking for xinput.h
+-- Looking for xinput.h - found
+-- Performing Test _GLFW_HAS_DEP
+-- Performing Test _GLFW_HAS_DEP - Success
+-- Performing Test _GLFW_HAS_ASLR
+-- Performing Test _GLFW_HAS_ASLR - Success
+-- Performing Test _GLFW_HAS_64ASLR
+-- Performing Test _GLFW_HAS_64ASLR - Failed
+-- Using Win32 for window creation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug

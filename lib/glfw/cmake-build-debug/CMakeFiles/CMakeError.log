@@ -1,0 +1,22 @@
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
+Change Dir: D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_af19e/fast"
+C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_af19e.dir\build.make CMakeFiles/cmTC_af19e.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af19e.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_af19e.dir\src.c.obj   -c D:\School\Homework\ECE_4122\HW5\glfw-3.2.1\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_af19e.exe
+"D:\Programs\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_af19e.dir\link.txt --verbose=1
+"D:\Programs\CLion 2017.3.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_af19e.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_af19e.dir/objects.a @CMakeFiles\cmTC_af19e.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_af19e.dir/objects.a -Wl,--no-whole-archive  -o cmTC_af19e.exe -Wl,--out-implib,libcmTC_af19e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_af19e.dir\linklibs.rsp
+C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/bin/ld.exe: use the --help option for usage information
+collect2.exe: error: ld returned 1 exit status
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_af19e.dir\build.make:99: cmTC_af19e.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'D:/School/Homework/ECE_4122/HW5/glfw-3.2.1/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:125: cmTC_af19e/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
