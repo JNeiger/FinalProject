@@ -156,12 +156,64 @@ CMakeFiles/FinalProject.dir/shader.cpp.obj.provides: CMakeFiles/FinalProject.dir
 CMakeFiles/FinalProject.dir/shader.cpp.obj.provides.build: CMakeFiles/FinalProject.dir/shader.cpp.obj
 
 
+CMakeFiles/FinalProject.dir/Planet.cpp.obj: CMakeFiles/FinalProject.dir/flags.make
+CMakeFiles/FinalProject.dir/Planet.cpp.obj: CMakeFiles/FinalProject.dir/includes_CXX.rsp
+CMakeFiles/FinalProject.dir/Planet.cpp.obj: ../Planet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\School\Homework\ECE_4122\Project\FinalProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/FinalProject.dir/Planet.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProject.dir\Planet.cpp.obj -c D:\School\Homework\ECE_4122\Project\FinalProject\Planet.cpp
+
+CMakeFiles/FinalProject.dir/Planet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/Planet.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\School\Homework\ECE_4122\Project\FinalProject\Planet.cpp > CMakeFiles\FinalProject.dir\Planet.cpp.i
+
+CMakeFiles/FinalProject.dir/Planet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/Planet.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\School\Homework\ECE_4122\Project\FinalProject\Planet.cpp -o CMakeFiles\FinalProject.dir\Planet.cpp.s
+
+CMakeFiles/FinalProject.dir/Planet.cpp.obj.requires:
+
+.PHONY : CMakeFiles/FinalProject.dir/Planet.cpp.obj.requires
+
+CMakeFiles/FinalProject.dir/Planet.cpp.obj.provides: CMakeFiles/FinalProject.dir/Planet.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Planet.cpp.obj.provides.build
+.PHONY : CMakeFiles/FinalProject.dir/Planet.cpp.obj.provides
+
+CMakeFiles/FinalProject.dir/Planet.cpp.obj.provides.build: CMakeFiles/FinalProject.dir/Planet.cpp.obj
+
+
+CMakeFiles/FinalProject.dir/Simulator.cpp.obj: CMakeFiles/FinalProject.dir/flags.make
+CMakeFiles/FinalProject.dir/Simulator.cpp.obj: CMakeFiles/FinalProject.dir/includes_CXX.rsp
+CMakeFiles/FinalProject.dir/Simulator.cpp.obj: ../Simulator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\School\Homework\ECE_4122\Project\FinalProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalProject.dir/Simulator.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\FinalProject.dir\Simulator.cpp.obj -c D:\School\Homework\ECE_4122\Project\FinalProject\Simulator.cpp
+
+CMakeFiles/FinalProject.dir/Simulator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FinalProject.dir/Simulator.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\School\Homework\ECE_4122\Project\FinalProject\Simulator.cpp > CMakeFiles\FinalProject.dir\Simulator.cpp.i
+
+CMakeFiles/FinalProject.dir/Simulator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FinalProject.dir/Simulator.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\School\Homework\ECE_4122\Project\FinalProject\Simulator.cpp -o CMakeFiles\FinalProject.dir\Simulator.cpp.s
+
+CMakeFiles/FinalProject.dir/Simulator.cpp.obj.requires:
+
+.PHONY : CMakeFiles/FinalProject.dir/Simulator.cpp.obj.requires
+
+CMakeFiles/FinalProject.dir/Simulator.cpp.obj.provides: CMakeFiles/FinalProject.dir/Simulator.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Simulator.cpp.obj.provides.build
+.PHONY : CMakeFiles/FinalProject.dir/Simulator.cpp.obj.provides
+
+CMakeFiles/FinalProject.dir/Simulator.cpp.obj.provides.build: CMakeFiles/FinalProject.dir/Simulator.cpp.obj
+
+
 # Object files for target FinalProject
 FinalProject_OBJECTS = \
 "CMakeFiles/FinalProject.dir/main.cpp.obj" \
 "CMakeFiles/FinalProject.dir/glad.c.obj" \
 "CMakeFiles/FinalProject.dir/stb_image.cpp.obj" \
-"CMakeFiles/FinalProject.dir/shader.cpp.obj"
+"CMakeFiles/FinalProject.dir/shader.cpp.obj" \
+"CMakeFiles/FinalProject.dir/Planet.cpp.obj" \
+"CMakeFiles/FinalProject.dir/Simulator.cpp.obj"
 
 # External object files for target FinalProject
 FinalProject_EXTERNAL_OBJECTS =
@@ -170,12 +222,14 @@ FinalProject.exe: CMakeFiles/FinalProject.dir/main.cpp.obj
 FinalProject.exe: CMakeFiles/FinalProject.dir/glad.c.obj
 FinalProject.exe: CMakeFiles/FinalProject.dir/stb_image.cpp.obj
 FinalProject.exe: CMakeFiles/FinalProject.dir/shader.cpp.obj
+FinalProject.exe: CMakeFiles/FinalProject.dir/Planet.cpp.obj
+FinalProject.exe: CMakeFiles/FinalProject.dir/Simulator.cpp.obj
 FinalProject.exe: CMakeFiles/FinalProject.dir/build.make
 FinalProject.exe: lib/glfw/src/libglfw3.a
 FinalProject.exe: CMakeFiles/FinalProject.dir/linklibs.rsp
 FinalProject.exe: CMakeFiles/FinalProject.dir/objects1.rsp
 FinalProject.exe: CMakeFiles/FinalProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\School\Homework\ECE_4122\Project\FinalProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable FinalProject.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\School\Homework\ECE_4122\Project\FinalProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FinalProject.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FinalProject.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +241,8 @@ CMakeFiles/FinalProject.dir/requires: CMakeFiles/FinalProject.dir/main.cpp.obj.r
 CMakeFiles/FinalProject.dir/requires: CMakeFiles/FinalProject.dir/glad.c.obj.requires
 CMakeFiles/FinalProject.dir/requires: CMakeFiles/FinalProject.dir/stb_image.cpp.obj.requires
 CMakeFiles/FinalProject.dir/requires: CMakeFiles/FinalProject.dir/shader.cpp.obj.requires
+CMakeFiles/FinalProject.dir/requires: CMakeFiles/FinalProject.dir/Planet.cpp.obj.requires
+CMakeFiles/FinalProject.dir/requires: CMakeFiles/FinalProject.dir/Simulator.cpp.obj.requires
 
 .PHONY : CMakeFiles/FinalProject.dir/requires
 

@@ -532,6 +532,60 @@ glm_dummy/fast:
 	$(MAKE) -f lib\glm\glm\CMakeFiles\glm_dummy.dir\build.make lib/glm/glm/CMakeFiles/glm_dummy.dir/build
 .PHONY : glm_dummy/fast
 
+Planet.obj: Planet.cpp.obj
+
+.PHONY : Planet.obj
+
+# target to build an object file
+Planet.cpp.obj:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Planet.cpp.obj
+.PHONY : Planet.cpp.obj
+
+Planet.i: Planet.cpp.i
+
+.PHONY : Planet.i
+
+# target to preprocess a source file
+Planet.cpp.i:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Planet.cpp.i
+.PHONY : Planet.cpp.i
+
+Planet.s: Planet.cpp.s
+
+.PHONY : Planet.s
+
+# target to generate assembly for a file
+Planet.cpp.s:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Planet.cpp.s
+.PHONY : Planet.cpp.s
+
+Simulator.obj: Simulator.cpp.obj
+
+.PHONY : Simulator.obj
+
+# target to build an object file
+Simulator.cpp.obj:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Simulator.cpp.obj
+.PHONY : Simulator.cpp.obj
+
+Simulator.i: Simulator.cpp.i
+
+.PHONY : Simulator.i
+
+# target to preprocess a source file
+Simulator.cpp.i:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Simulator.cpp.i
+.PHONY : Simulator.cpp.i
+
+Simulator.s: Simulator.cpp.s
+
+.PHONY : Simulator.s
+
+# target to generate assembly for a file
+Simulator.cpp.s:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Simulator.cpp.s
+.PHONY : Simulator.cpp.s
+
 glad.obj: glad.c.obj
 
 .PHONY : glad.obj
@@ -681,6 +735,12 @@ help:
 	@echo ... title
 	@echo ... windows
 	@echo ... glm_dummy
+	@echo ... Planet.obj
+	@echo ... Planet.i
+	@echo ... Planet.s
+	@echo ... Simulator.obj
+	@echo ... Simulator.i
+	@echo ... Simulator.s
 	@echo ... glad.obj
 	@echo ... glad.i
 	@echo ... glad.s

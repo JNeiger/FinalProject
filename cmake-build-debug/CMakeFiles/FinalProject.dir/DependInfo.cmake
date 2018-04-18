@@ -16,6 +16,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../lib/glm"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/School/Homework/ECE_4122/Project/FinalProject/Planet.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Planet.cpp.obj"
+  "D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Simulator.cpp.obj"
   "D:/School/Homework/ECE_4122/Project/FinalProject/main.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/main.cpp.obj"
   "D:/School/Homework/ECE_4122/Project/FinalProject/shader.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/shader.cpp.obj"
   "D:/School/Homework/ECE_4122/Project/FinalProject/stb_image.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/stb_image.cpp.obj"

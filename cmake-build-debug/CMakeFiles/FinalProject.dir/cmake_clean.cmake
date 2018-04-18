@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FinalProject.dir/glad.c.obj"
   "CMakeFiles/FinalProject.dir/stb_image.cpp.obj"
   "CMakeFiles/FinalProject.dir/shader.cpp.obj"
+  "CMakeFiles/FinalProject.dir/Planet.cpp.obj"
+  "CMakeFiles/FinalProject.dir/Simulator.cpp.obj"
   "FinalProject.pdb"
   "FinalProject.exe"
   "FinalProject.exe.manifest"

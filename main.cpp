@@ -8,6 +8,7 @@
 #include <glm/gtc/type_ptr.hpp>
 
 #include "shader.h"
+#include "Simulator.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow *window, double xpos, double ypos);
@@ -17,7 +18,7 @@ const unsigned int WINDOW_WIDTH = 800;
 const unsigned int WINDOW_HEIGHT = 600;
 
 // Camera position / facing vectors
-glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 5.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::vec3 origin = glm::vec3(0.0f, 0.0f, 0.0f);
 
@@ -63,6 +64,7 @@ int main() {
   glEnable(GL_DEPTH_TEST);
   Shader shad("shader.vs", "shader.fs");
 
+  // Simple Plane
   float vertices[] = {
        1.0f,  1.0f, 0.0f, 1.0f, 1.0f,
        1.0f, -1.0f, 0.0f, 1.0f, 0.0f,
@@ -70,8 +72,25 @@ int main() {
       -1.0f,  1.0f, 0.0f, 0.0f, 1.0f
   };
 
+  // Tetrahedren
+  float vertices2[] = {
+       sqrt(8.0f/9.0f),             0.0f, -1.0f/3.0f, 1.0f, 1.0f,
+      -sqrt(2.0f/9.0f),  sqrt(2.0f/3.0f), -1.0f/3.0f, 1.0f, 0.0f,
+      -sqrt(2.0f/9.0f), -sqrt(2.0f/3.0f), -1.0f/3.0f, 0.0f, 0.0f,
+                  0.0f,             0.0f,       1.0f, 0.0f, 1.0f
+  };
+
+  // Simple Plane
   unsigned int indices[] = {
       0, 1, 3,
+      1, 2, 3
+  };
+
+  // Tetrahedren
+  unsigned int indices2[] = {
+      0, 1, 2,
+      0, 1, 3,
+      0, 2, 3,
       1, 2, 3
   };
 
@@ -85,10 +104,10 @@ int main() {
   glBindVertexArray(VAO);
 
   glBindBuffer(GL_ARRAY_BUFFER, VBO);
-  glBufferData(GL_ARRAY_BUFFER, sizeof(vertices), vertices, GL_STATIC_DRAW);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(vertices2), vertices2, GL_STATIC_DRAW);
 
   glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, EBO);
-  glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
+  glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices2), indices2, GL_STATIC_DRAW);
 
   glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
   glEnableVertexAttribArray(0);
@@ -130,6 +149,19 @@ int main() {
   int pwr = 2;
   int mode = 0;
 
+  Simulator sim(0.001);
+  Planet p1(10, 10, 0);
+  Planet p2(10, 10, 0);
+  Planet p3(10, 10, 0);
+
+  p1.setPos(glm::dvec3(-1, 1, 0));
+  p2.setPos(glm::dvec3(1, 1, 1));
+  p3.setPos(glm::dvec3(0, 0, 0));
+
+  sim.addPlanet(p1);
+  sim.addPlanet(p2);
+  sim.addPlanet(p3);
+
   while (!glfwWindowShouldClose(window)) {
     // Keyboard inputs
     keyboard_callback(window, pwr, mode);
@@ -153,10 +185,6 @@ int main() {
     shad.setMat4("view", view);
 
 
-    // Apply specific model transformations
-    glm::mat4 model = glm::mat4(1.0f);
-    shad.setMat4("model", model);
-
     // Set all the global uniforms for the shader
     shad.setFloat("screen_ratio", (float)w / (float)h);
     shad.set2Float("screen_size", (float)w , (float)h);
@@ -167,7 +195,15 @@ int main() {
     shad.setInt("mode", mode);
 
     glBindVertexArray(VAO);
-    glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+    std::vector<Planet> planets = sim.getPlanets();
+    for (int i = 0; i < planets.size(); i++) {
+      glm::mat4 model(1.0f);
+      model = glm::translate(model, (glm::vec3)planets.at(i).getPos());
+      shad.setMat4("model", model);
+      glDrawElements(GL_TRIANGLES, sizeof(indices2), GL_UNSIGNED_INT, 0);
+    }
+
     glBindVertexArray(0);
 
     glfwSwapBuffers(window);
@@ -211,7 +247,7 @@ void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
     front.x = (float) (cos(glm::radians(yaw)) * cos(glm::radians(pitch)));
     front.y = (float) sin(glm::radians(pitch));
     front.z = (float) (sin(glm::radians(yaw)) * cos(glm::radians(pitch)));
-    cameraPos = glm::normalize(front) * 3.0f;
+    cameraPos = glm::normalize(front) * 5.0f;
   }
 }
 
@@ -238,7 +274,7 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
     mode = 1;
   } else if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
     // Only allow this on the first instance the shift key is pressed
-    if (!rotateMode) {github
+    if (!rotateMode) {
       rotateMode = true;
       glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
       firstMouse = true;

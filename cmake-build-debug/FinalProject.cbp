@@ -1498,6 +1498,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Planet.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Planet.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.h">
+			<Option target="FinalProject"/>
+		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/lib/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>

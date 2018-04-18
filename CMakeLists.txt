@@ -9,5 +9,5 @@ set(CMAKE_CXX_STANDARD 11)
 add_subdirectory(lib/glfw)
 add_subdirectory(lib/glm)
 
-add_executable(FinalProject main.cpp glad.c stb_image.cpp shader.h shader.cpp)
+add_executable(FinalProject main.cpp glad.c stb_image.cpp shader.h shader.cpp Planet.h Planet.cpp Simulator.h Simulator.cpp)
 target_link_libraries(FinalProject glfw)
