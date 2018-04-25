@@ -9,10 +9,9 @@
 
 #include "shader.h"
 #include "Simulator.h"
+#include "Camera.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
-void mouse_callback(GLFWwindow *window, double xpos, double ypos);
-void keyboard_callback(GLFWwindow *window, int &pwr, int &mode);
 
 const unsigned int WINDOW_WIDTH = 800;
 const unsigned int WINDOW_HEIGHT = 600;
@@ -21,12 +20,6 @@ const unsigned int WINDOW_HEIGHT = 600;
 glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 5.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::vec3 origin = glm::vec3(0.0f, 0.0f, 0.0f);
-
-// Mouse
-bool firstMouse = true; // First mouse callback?
-float lastX = WINDOW_WIDTH / 2.0f; // Where the last mouse position was
-float lastY = WINDOW_HEIGHT / 2.0f;
-bool rotateMode = false;
 
 // Camera facing angles
 float yaw = 90.0f;
@@ -56,7 +49,7 @@ int main() {
   }
 
   glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
-  glfwSetCursorPosCallback(window, mouse_callback);
+  glfwSetCursorPosCallback(window, mouse_pos_callback);
 
   // Capture mouse
   glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
@@ -219,71 +212,4 @@ int main() {
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
   glViewport(0, 0, width, height);
-}
-
-void mouse_callback(GLFWwindow *window, double xpos, double ypos) {
-  if (rotateMode) {
-    if (firstMouse) {
-      lastX = (float) xpos;
-      lastY = (float) ypos;
-      firstMouse = false;
-    }
-
-    float xoffset = (float) xpos - lastX;
-    float yoffset = (float) ypos - lastY; // Y coords are inverted
-    lastX = (float) xpos;
-    lastY = (float) ypos;
-
-    float sensitivity = 0.1f;
-    xoffset *= sensitivity;
-    yoffset *= sensitivity;
-
-    yaw += xoffset;
-    pitch += yoffset;
-
-    pitch = std::min(std::max(pitch, -89.0f), 89.0f);
-
-    glm::vec3 front;
-    front.x = (float) (cos(glm::radians(yaw)) * cos(glm::radians(pitch)));
-    front.y = (float) sin(glm::radians(pitch));
-    front.z = (float) (sin(glm::radians(yaw)) * cos(glm::radians(pitch)));
-    cameraPos = glm::normalize(front) * 5.0f;
-  }
-}
-
-void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
-  if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
-    glfwSetWindowShouldClose(window, true);
-  } else if (glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS) {
-    pwr = 2;
-  } else if (glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS) {
-    pwr = 3;
-  } else if (glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS) {
-    pwr = 4;
-  } else if (glfwGetKey(window, GLFW_KEY_5) == GLFW_PRESS) {
-    pwr = 5;
-  } else if (glfwGetKey(window, GLFW_KEY_6) == GLFW_PRESS) {
-    pwr = 6;
-  } else if (glfwGetKey(window, GLFW_KEY_7) == GLFW_PRESS) {
-    pwr = 7;
-  } else if (glfwGetKey(window, GLFW_KEY_8) == GLFW_PRESS) {
-    pwr = 8;
-  } else if (glfwGetKey(window, GLFW_KEY_M) == GLFW_PRESS) {
-    mode = 0;
-  } else if (glfwGetKey(window, GLFW_KEY_J) == GLFW_PRESS) {
-    mode = 1;
-  } else if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {
-    // Only allow this on the first instance the shift key is pressed
-    if (!rotateMode) {
-      rotateMode = true;
-      glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
-      firstMouse = true;
-    }
-  } else if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_RELEASE) {
-    // Only allow this on the first instance the shift key is released
-    if (rotateMode) {
-      rotateMode = false;
-      glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
-    }
-  }
 }

@@ -13,5 +13,5 @@ RC_FLAGS =
 
 RC_DEFINES = 
 
-RC_INCLUDES = -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glfw\include -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glad\include -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glm -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glfw\deps 
+RC_INCLUDES = -ID:\School\Homework\ECE_4122\Project\FinalProject\include -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glfw\include -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glad\include -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glm -ID:\School\Homework\ECE_4122\Project\FinalProject\lib\glfw\deps 
 

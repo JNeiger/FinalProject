@@ -532,6 +532,33 @@ glm_dummy/fast:
 	$(MAKE) -f lib\glm\glm\CMakeFiles\glm_dummy.dir\build.make lib/glm/glm/CMakeFiles/glm_dummy.dir/build
 .PHONY : glm_dummy/fast
 
+Camera.obj: Camera.cpp.obj
+
+.PHONY : Camera.obj
+
+# target to build an object file
+Camera.cpp.obj:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Camera.cpp.obj
+.PHONY : Camera.cpp.obj
+
+Camera.i: Camera.cpp.i
+
+.PHONY : Camera.i
+
+# target to preprocess a source file
+Camera.cpp.i:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Camera.cpp.i
+.PHONY : Camera.cpp.i
+
+Camera.s: Camera.cpp.s
+
+.PHONY : Camera.s
+
+# target to generate assembly for a file
+Camera.cpp.s:
+	$(MAKE) -f CMakeFiles\FinalProject.dir\build.make CMakeFiles/FinalProject.dir/Camera.cpp.s
+.PHONY : Camera.cpp.s
+
 Planet.obj: Planet.cpp.obj
 
 .PHONY : Planet.obj
@@ -735,6 +762,9 @@ help:
 	@echo ... title
 	@echo ... windows
 	@echo ... glm_dummy
+	@echo ... Camera.obj
+	@echo ... Camera.i
+	@echo ... Camera.s
 	@echo ... Planet.obj
 	@echo ... Planet.i
 	@echo ... Planet.s

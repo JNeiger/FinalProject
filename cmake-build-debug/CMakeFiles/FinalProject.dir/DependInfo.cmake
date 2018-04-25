@@ -11,11 +11,13 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../include"
   "../lib/glfw/include"
   "../lib/glad/include"
   "../lib/glm"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "D:/School/Homework/ECE_4122/Project/FinalProject/Camera.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Camera.cpp.obj"
   "D:/School/Homework/ECE_4122/Project/FinalProject/Planet.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Planet.cpp.obj"
   "D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/Simulator.cpp.obj"
   "D:/School/Homework/ECE_4122/Project/FinalProject/main.cpp" "D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/CMakeFiles/FinalProject.dir/main.cpp.obj"
@@ -26,6 +28,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include"
   "../lib/glfw/include"
   "../lib/glad/include"
   "../lib/glm"

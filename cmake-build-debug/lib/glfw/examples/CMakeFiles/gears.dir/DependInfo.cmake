@@ -12,6 +12,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../include"
   "../lib/glfw/include"
   "../lib/glad/include"
   "../lib/glm"
@@ -23,6 +24,7 @@ set(CMAKE_DEPENDS_CHECK_RC
 
 # The include file search paths:
 set(CMAKE_RC_TARGET_INCLUDE_PATH
+  "../include"
   "../lib/glfw/include"
   "../lib/glad/include"
   "../lib/glm"

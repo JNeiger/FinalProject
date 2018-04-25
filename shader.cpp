@@ -1,7 +1,7 @@
 //
 // Created by Joe on 4/16/2018.
 //
-#include "shader.h"
+#include "include/shader.h"
 
 Shader::Shader(const char* vertexPath, const char* fragmentPath) {
   std::string vertexCode;

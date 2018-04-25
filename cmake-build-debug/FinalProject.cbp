@@ -24,6 +24,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -48,6 +49,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -145,6 +147,7 @@
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -174,6 +177,7 @@
 					<Add option="-D_GLFW_USE_CONFIG_H"/>
 					<Add option="-DUNICODE"/>
 					<Add option="-DWINVER=0x0501"/>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -200,6 +204,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -225,6 +230,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -250,6 +256,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -275,6 +282,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -300,6 +308,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -325,6 +334,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -350,6 +360,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -375,6 +386,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -400,6 +412,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -425,6 +438,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -450,6 +464,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -475,6 +490,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -500,6 +516,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -525,6 +542,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -550,6 +568,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -575,6 +594,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -600,6 +620,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -625,6 +646,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -650,6 +672,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -675,6 +698,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -700,6 +724,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -725,6 +750,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -750,6 +776,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -775,6 +802,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -800,6 +828,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -825,6 +854,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -850,6 +880,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -875,6 +906,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -900,6 +932,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -925,6 +958,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -950,6 +984,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -975,6 +1010,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1000,6 +1036,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1025,6 +1062,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1050,6 +1088,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1075,6 +1114,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1100,6 +1140,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1125,6 +1166,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1150,6 +1192,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1175,6 +1218,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1200,6 +1244,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1225,6 +1270,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1250,6 +1296,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1275,6 +1322,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1300,6 +1348,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1325,6 +1374,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1350,6 +1400,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1375,6 +1426,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1400,6 +1452,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1425,6 +1478,7 @@
 				<Option type="0"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1451,6 +1505,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1478,6 +1533,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add option="-D_CRT_SECURE_NO_WARNINGS"/>
+					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glad/include"/>
 					<Add directory="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glm"/>
@@ -1498,22 +1554,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Camera.cpp">
+			<Option target="FinalProject"/>
+		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Planet.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Planet.h">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.cpp">
-			<Option target="FinalProject"/>
-		</Unit>
-		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/cmake-build-debug/lib/glfw/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/glad.c">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/include/Camera.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/include/Planet.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/include/Simulator.h">
+			<Option target="FinalProject"/>
+		</Unit>
+		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/include/shader.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/lib/glfw/deps/getopt.c">
@@ -2540,13 +2605,7 @@
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/shader.cpp">
 			<Option target="FinalProject"/>
 		</Unit>
-		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/shader.h">
-			<Option target="FinalProject"/>
-		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/stb_image.cpp">
-			<Option target="FinalProject"/>
-		</Unit>
-		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/stb_image.h">
 			<Option target="FinalProject"/>
 		</Unit>
 		<Unit filename="D:/School/Homework/ECE_4122/Project/FinalProject/CMakeLists.txt">

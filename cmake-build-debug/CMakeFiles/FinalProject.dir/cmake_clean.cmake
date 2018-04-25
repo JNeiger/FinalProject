@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/FinalProject.dir/shader.cpp.obj"
   "CMakeFiles/FinalProject.dir/Planet.cpp.obj"
   "CMakeFiles/FinalProject.dir/Simulator.cpp.obj"
+  "CMakeFiles/FinalProject.dir/Camera.cpp.obj"
   "FinalProject.pdb"
   "FinalProject.exe"
   "FinalProject.exe.manifest"
