@@ -26,6 +26,8 @@ float yaw = 90.0f;
 float pitch = 0.0f;
 float fov = 45.0f; // Field of view
 
+Simulator sim(0.001);
+
 int main() {
   glfwInit();
   glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
@@ -50,6 +52,8 @@ int main() {
 
   glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
   glfwSetCursorPosCallback(window, mouse_pos_callback);
+  glfwSetMouseButtonCallback(window, mouse_button_callback);
+  glfwSetScrollCallback(window, scroll_callback);
 
   // Capture mouse
   glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_NORMAL);
@@ -142,7 +146,6 @@ int main() {
   int pwr = 2;
   int mode = 0;
 
-  Simulator sim(0.001);
   Planet p1(10, 10, 0);
   Planet p2(10, 10, 0);
   Planet p3(10, 10, 0);
@@ -189,10 +192,9 @@ int main() {
 
     glBindVertexArray(VAO);
 
-    std::vector<Planet> planets = sim.getPlanets();
-    for (int i = 0; i < planets.size(); i++) {
+    for (int i = 0; i < sim.planets.size(); i++) {
       glm::mat4 model(1.0f);
-      model = glm::translate(model, (glm::vec3)planets.at(i).getPos());
+      model = glm::translate(model, (glm::vec3)sim.planets.at(i).getPos());
       shad.setMat4("model", model);
       glDrawElements(GL_TRIANGLES, sizeof(indices2), GL_UNSIGNED_INT, 0);
     }

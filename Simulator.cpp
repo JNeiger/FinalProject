@@ -15,10 +15,6 @@ void Simulator::removePlanet(Planet p) {
   planets.erase(std::remove(planets.begin(), planets.end(), p), planets.end());
 }
 
-std::vector<Planet> Simulator::getPlanets() {
-  return planets;
-}
-
 void Simulator::step() {
 
   std::vector<glm::dvec3> netForce;
