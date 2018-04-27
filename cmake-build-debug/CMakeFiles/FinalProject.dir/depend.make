@@ -38,7 +38,6 @@ CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./detail/type_vec1.hp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./detail/type_vec1.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./detail/type_vec2.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./exponential.hpp
-CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./glm.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtc/bitfield.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtc/bitfield.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtc/color_space.hpp
@@ -108,7 +107,6 @@ CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/handed_coordina
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/handed_coordinate_space.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/integer.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/intersect.hpp
-CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/intersect.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/log_base.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/log_base.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/./gtx/matrix_cross_product.hpp
@@ -236,6 +234,10 @@ CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtc/quaternion.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtc/quaternion_simd.inl
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtc/type_ptr.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtc/type_ptr.inl
+CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtx/closest_point.hpp
+CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtx/intersect.hpp
+CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtx/intersect.inl
+CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/gtx/vector_query.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/integer.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/mat2x2.hpp
 CMakeFiles/FinalProject.dir/Camera.cpp.obj: ../lib/glm/glm/mat2x3.hpp

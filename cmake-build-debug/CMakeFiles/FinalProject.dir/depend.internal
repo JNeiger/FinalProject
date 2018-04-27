@@ -39,7 +39,6 @@ CMakeFiles/FinalProject.dir/Camera.cpp.obj
  ../lib/glm/glm/./detail/type_vec1.inl
  ../lib/glm/glm/./detail/type_vec2.hpp
  ../lib/glm/glm/./exponential.hpp
- ../lib/glm/glm/./glm.hpp
  ../lib/glm/glm/./gtc/bitfield.hpp
  ../lib/glm/glm/./gtc/bitfield.inl
  ../lib/glm/glm/./gtc/color_space.hpp
@@ -109,7 +108,6 @@ CMakeFiles/FinalProject.dir/Camera.cpp.obj
  ../lib/glm/glm/./gtx/handed_coordinate_space.inl
  ../lib/glm/glm/./gtx/integer.hpp
  ../lib/glm/glm/./gtx/intersect.hpp
- ../lib/glm/glm/./gtx/intersect.inl
  ../lib/glm/glm/./gtx/log_base.hpp
  ../lib/glm/glm/./gtx/log_base.inl
  ../lib/glm/glm/./gtx/matrix_cross_product.hpp
@@ -237,6 +235,10 @@ CMakeFiles/FinalProject.dir/Camera.cpp.obj
  ../lib/glm/glm/gtc/quaternion_simd.inl
  ../lib/glm/glm/gtc/type_ptr.hpp
  ../lib/glm/glm/gtc/type_ptr.inl
+ ../lib/glm/glm/gtx/closest_point.hpp
+ ../lib/glm/glm/gtx/intersect.hpp
+ ../lib/glm/glm/gtx/intersect.inl
+ ../lib/glm/glm/gtx/vector_query.hpp
  ../lib/glm/glm/integer.hpp
  ../lib/glm/glm/mat2x2.hpp
  ../lib/glm/glm/mat2x3.hpp

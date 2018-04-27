@@ -16,11 +16,20 @@ void Planet::setPos(glm::dvec3 newPos) {
   pos = newPos;
 }
 
+void Planet::setVel(glm::dvec3 newVel) {
+  vel = newVel;
+}
+
 double Planet::getMass() const {
   return mass;
 }
+
 glm::dvec3 Planet::getPos() const {
   return pos;
+}
+
+glm::dvec3 Planet::getVel() const {
+  return vel;
 }
 
 void Planet::cycleColor() {

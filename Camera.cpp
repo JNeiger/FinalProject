@@ -8,6 +8,7 @@
 #include <glm/gtc/type_ptr.hpp>
 #include <iostream>
 #include <glm/ext.hpp>
+#include <glm/gtx/intersect.hpp>
 
 
 // Mouse
@@ -76,7 +77,7 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
   //  GLFW_MOD_ALT
   //  GLFW_MOD_SUPER
 
-  enum ClickType { SINGLE_CLICK, CLICK_DRAG, SHIFT_CLICK_DRAG, NONE };
+  enum ClickType { SINGLE_CLICK, CLICK_DRAG, CONTROL_CLICK_DRAG, NONE };
   ClickType clickType = NONE;
 
   static double startPressTime = 0;
@@ -86,7 +87,9 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
   static double initialYpos = 0.0;
 
   if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS) {
-    startPressTime = glfwGetTime();
+    if (!MOUSE_BUTTON_LEFT_IS_PRESSED) {
+      startPressTime = glfwGetTime();
+    }
     MOUSE_BUTTON_LEFT_IS_PRESSED = true;
 
   } else if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_RELEASE) {
@@ -101,11 +104,11 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
   if (MOUSE_BUTTON_LEFT_IS_PRESSED && currentPressTime - startPressTime < CLICK_TO_HOLD_TRANSITION) {
     clickType = SINGLE_CLICK;
 
-  } else if (MOUSE_BUTTON_LEFT_IS_PRESSED && currentPressTime - startPressTime >= CLICK_TO_HOLD_TRANSITION) {
+  } else if (!MOUSE_BUTTON_LEFT_IS_PRESSED && currentPressTime - startPressTime >= CLICK_TO_HOLD_TRANSITION) {
 
     // Check if the shift key is held down too or not
-    if (modes == GLFW_MOD_SHIFT) {
-      clickType = SHIFT_CLICK_DRAG;
+    if (modes == GLFW_MOD_CONTROL) {
+      clickType = CONTROL_CLICK_DRAG;
     } else {
       clickType = CLICK_DRAG;
     }
@@ -169,19 +172,21 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
     //    Move the planet in the position parallel to the "Face" of the camera
     //    We have Up and Right camera vector so just doing a multiple of those should work
 
-    // Right vector and up vector
-    // Place at current planet location
-    // Projection of click location onto that plane
-    // glm::gtx::intersectRayPlane
-    //sim.planets.at(selected).setPos()
+    glm::vec3 planeNorm = glm::normalize(cameraPos - origin);
+    float dist = 0;
+    glm::intersectRayPlane(cameraPos, ray_wor, (glm::vec3) sim.planets.at(selected).getPos(), planeNorm, dist);
+    sim.planets.at(selected).setPos(cameraPos + dist*ray_wor);
 
-  } else if (clickType == SHIFT_CLICK_DRAG && selected != -1) {
+  } else if (clickType == CONTROL_CLICK_DRAG && selected != -1) {
     // Shift click and drag is setting the velocity of the planet
     //    May need to change shift to ctrl to make things easier
     //    Similar to the position, but it draws a line instead from planet to mouse pos
     //    Golf it style
 
-    // Very similar to above, only difference is that you set the velocity instead of position
+    glm::vec3 planeNorm = glm::normalize(cameraPos - origin);
+    float dist = 0;
+    glm::intersectRayPlane(cameraPos, ray_wor, (glm::vec3) sim.planets.at(selected).getPos(), planeNorm, dist);
+    sim.planets.at(selected).setVel(cameraPos + dist*ray_wor);
   }
 }
 

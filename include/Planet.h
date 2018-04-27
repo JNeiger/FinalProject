@@ -13,9 +13,11 @@ public:
 
   void setMass(double newMass);
   void setPos(glm::dvec3 newPos);
+  void setVel(glm::dvec3 newVel);
 
   double getMass() const;
   glm::dvec3 getPos() const;
+  glm::dvec3 getVel() const;
 
   // Cycles the color one increment to the next set
   void cycleColor();
