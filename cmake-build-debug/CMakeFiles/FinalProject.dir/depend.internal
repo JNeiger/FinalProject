@@ -358,6 +358,7 @@ CMakeFiles/FinalProject.dir/Planet.cpp.obj
 CMakeFiles/FinalProject.dir/Simulator.cpp.obj
  ../include/Planet.h
  ../include/Simulator.h
+ ../lib/glfw/include/glfw/glfw3.h
  ../lib/glm/glm/common.hpp
  ../lib/glm/glm/detail/_fixes.hpp
  ../lib/glm/glm/detail/_swizzle.hpp

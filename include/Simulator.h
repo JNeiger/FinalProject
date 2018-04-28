@@ -5,9 +5,16 @@
 #ifndef FINALPROJECT_SIMULATOR_H
 #define FINALPROJECT_SIMULATOR_H
 #include <vector>
+#include <mutex>
 
 #include "Planet.h"
 
+class Simulator;
+
+extern std::mutex simMutex;
+extern Simulator sim;
+
+void simulatorThread();
 
 class Simulator {
 public:
@@ -21,7 +28,6 @@ public:
   void step();
 
   std::vector<Planet> planets;
-private:
   double timeStep;
 };
 

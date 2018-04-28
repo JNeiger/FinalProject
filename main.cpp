@@ -1,4 +1,6 @@
 #include <iostream>
+#include <thread>
+#include <mutex>
 #include <glad/glad.h>
 #include <glfw/glfw3.h>
 #include "stb_image.h"
@@ -12,12 +14,13 @@
 #include "Camera.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
+void renderSphere();
 
 const unsigned int WINDOW_WIDTH = 800;
 const unsigned int WINDOW_HEIGHT = 600;
 
 // Camera position / facing vectors
-glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 5.0f);
+glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 40.0f);
 glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
 glm::vec3 origin = glm::vec3(0.0f, 0.0f, 0.0f);
 
@@ -26,7 +29,9 @@ float yaw = 90.0f;
 float pitch = 0.0f;
 float fov = 45.0f; // Field of view
 
-Simulator sim(0.001);
+Simulator sim(0.0001);
+std::thread *simThread = nullptr;
+std::mutex simMutex;
 
 int main() {
   glfwInit();
@@ -139,24 +144,32 @@ int main() {
 
   shad.setInt("name", 0);
 
-  //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+  glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
   int w, h;
   float cx = 0.0f, cy = 0.0f, zoom = 0.4f;
   int itr = 100;
   int pwr = 2;
   int mode = 0;
 
-  Planet p1(10, 10, 0);
-  Planet p2(10, 10, 0);
-  Planet p3(10, 10, 0);
+  Planet sun    (1.989 * pow(10, 30), 3, 3);
+  Planet mercury(0.330 * pow(10, 24), 4.879 / 12.104, 0);
+  Planet venus  (4.87 * pow(10, 24), 12.104 / 12.104, 4);
+  Planet earth  (5.97 * pow(10, 24), 12.756 / 12.104, 1);
 
-  p1.setPos(glm::dvec3(-1, 1, 0));
-  p2.setPos(glm::dvec3(1, 1, 1));
-  p3.setPos(glm::dvec3(0, 0, 0));
+  sun.setPos(glm::dvec3(0, 0, 0));
+  mercury.setPos(glm::dvec3(57.9 * pow(10, 9), 0, 0));
+  venus.setPos(glm::dvec3(108.2 * pow(10, 9), 0, 0));
+  earth.setPos(glm::dvec3(149.6 * pow(10, 9), 0, 0));
 
-  sim.addPlanet(p1);
-  sim.addPlanet(p2);
-  sim.addPlanet(p3);
+  sun.setVel(glm::dvec3(0, 0, 0));
+  mercury.setVel(glm::dvec3(0, 47.4 * pow(10, 3), 0));
+  venus.setVel(glm::dvec3(0, 35.0 * pow(10, 3), 0));
+  earth.setVel(glm::dvec3(0, 29.8 * pow(10, 3), 0));
+
+  sim.addPlanet(sun);
+  sim.addPlanet(mercury);
+  sim.addPlanet(venus);
+  sim.addPlanet(earth);
 
   while (!glfwWindowShouldClose(window)) {
     // Keyboard inputs
@@ -181,23 +194,32 @@ int main() {
     shad.setMat4("view", view);
 
 
-    // Set all the global uniforms for the shader
-    shad.setFloat("screen_ratio", (float)w / (float)h);
-    shad.set2Float("screen_size", (float)w , (float)h);
-    shad.set2Float("center", cx, cy);
-    shad.setFloat("zoom", zoom);
-    shad.setInt("itr", itr);
-    shad.setInt("pwr", pwr);
-    shad.setInt("mode", mode);
-
     glBindVertexArray(VAO);
 
     for (int i = 0; i < sim.planets.size(); i++) {
+      simMutex.lock();
+
       glm::mat4 model(1.0f);
-      model = glm::translate(model, (glm::vec3)sim.planets.at(i).getPos());
+      glm::vec3 pos = (glm::vec3)sim.planets.at(i).getPos();
+      glm::vec3 color = sim.planets.at(i).getColor();
+
+      pos /= pow(10, 10);
+
+      model = glm::translate(model, pos);
       shad.setMat4("model", model);
-      glDrawElements(GL_TRIANGLES, sizeof(indices2), GL_UNSIGNED_INT, 0);
+      shad.setFloat("radius", sim.planets.at(i).getRadius());
+
+      shad.set3Float("color", color.x, color.y, color.z);
+
+      renderSphere();
+
+      simMutex.unlock();
     }
+
+    // TODO: Decide if this is actually a good idea
+    //simMutex.lock();
+    //origin = (glm::vec3)sim.planets.at(0).getPos();
+    //simMutex.unlock();
 
     glBindVertexArray(0);
 
@@ -214,4 +236,101 @@ int main() {
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height) {
   glViewport(0, 0, width, height);
+}
+
+// Renders a sphere
+// Taken from the learnopengl tutorial
+unsigned int sphereVAO = 0;
+unsigned int indexCount;
+void renderSphere()
+{
+  if (sphereVAO == 0)
+  {
+    glGenVertexArrays(1, &sphereVAO);
+
+    unsigned int vbo, ebo;
+    glGenBuffers(1, &vbo);
+    glGenBuffers(1, &ebo);
+
+    std::vector<glm::vec3> positions;
+    std::vector<glm::vec2> uv;
+    std::vector<glm::vec3> normals;
+    std::vector<unsigned int> indices;
+
+    const unsigned int X_SEGMENTS = 64;
+    const unsigned int Y_SEGMENTS = 64;
+    const float PI = 3.14159265359;
+    for (unsigned int y = 0; y <= Y_SEGMENTS; ++y)
+    {
+      for (unsigned int x = 0; x <= X_SEGMENTS; ++x)
+      {
+        float xSegment = (float)x / (float)X_SEGMENTS;
+        float ySegment = (float)y / (float)Y_SEGMENTS;
+        float xPos = std::cos(xSegment * 2.0f * PI) * std::sin(ySegment * PI);
+        float yPos = std::cos(ySegment * PI);
+        float zPos = std::sin(xSegment * 2.0f * PI) * std::sin(ySegment * PI);
+
+        positions.push_back(glm::vec3(xPos, yPos, zPos));
+        uv.push_back(glm::vec2(xSegment, ySegment));
+        normals.push_back(glm::vec3(xPos, yPos, zPos));
+      }
+    }
+
+    bool oddRow = false;
+    for (int y = 0; y < Y_SEGMENTS; ++y)
+    {
+      if (!oddRow) // even rows: y == 0, y == 2; and so on
+      {
+        for (int x = 0; x <= X_SEGMENTS; ++x)
+        {
+          indices.push_back(y       * (X_SEGMENTS + 1) + x);
+          indices.push_back((y + 1) * (X_SEGMENTS + 1) + x);
+        }
+      }
+      else
+      {
+        for (int x = X_SEGMENTS; x >= 0; --x)
+        {
+          indices.push_back((y + 1) * (X_SEGMENTS + 1) + x);
+          indices.push_back(y       * (X_SEGMENTS + 1) + x);
+        }
+      }
+      oddRow = !oddRow;
+    }
+    indexCount = indices.size();
+
+    std::vector<float> data;
+    for (int i = 0; i < positions.size(); ++i)
+    {
+      data.push_back(positions[i].x);
+      data.push_back(positions[i].y);
+      data.push_back(positions[i].z);
+      if (uv.size() > 0)
+      {
+        data.push_back(uv[i].x);
+        data.push_back(uv[i].y);
+      }
+      if (normals.size() > 0)
+      {
+        data.push_back(normals[i].x);
+        data.push_back(normals[i].y);
+        data.push_back(normals[i].z);
+      }
+    }
+    glBindVertexArray(sphereVAO);
+    glBindBuffer(GL_ARRAY_BUFFER, vbo);
+    glBufferData(GL_ARRAY_BUFFER, data.size() * sizeof(float), &data[0], GL_STATIC_DRAW);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo);
+    glBufferData(GL_ELEMENT_ARRAY_BUFFER, indices.size() * sizeof(unsigned int), &indices[0], GL_STATIC_DRAW);
+    float stride = (3 + 2 + 3) * sizeof(float);
+    glEnableVertexAttribArray(0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, stride, (void*)0);
+    glEnableVertexAttribArray(1);
+    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, stride, (void*)(3 * sizeof(float)));
+    glEnableVertexAttribArray(2);
+    glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, stride, (void*)(5 * sizeof(float)));
+  }
+
+  glBindVertexArray(sphereVAO);
+  glDrawElements(GL_TRIANGLE_STRIP, indexCount, GL_UNSIGNED_INT, 0);
 }

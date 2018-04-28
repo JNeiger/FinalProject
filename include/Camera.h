@@ -6,6 +6,8 @@
 #define FINALPROJECT_CAMERA_H
 
 #include <iostream>
+#include <thread>
+#include <mutex>
 #include <glad/glad.h>
 #include <glfw/glfw3.h>
 #include <glm/glm.hpp>
@@ -24,6 +26,8 @@ extern float pitch;
 extern float fov; // Field of view
 
 extern Simulator sim;
+extern std::thread *simThread;
+extern std::mutex simMutex;
 
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset);
 void mouse_pos_callback(GLFWwindow *window, double xpos, double ypos);

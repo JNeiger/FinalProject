@@ -7,6 +7,12 @@
 
 #include <glm/glm.hpp>
 
+#define COLOR_RED    glm::vec3(1.0f, 0.0f, 0.0f)
+#define COLOR_GREEN  glm::vec3(0.0f, 0.5f, 0.0f)
+#define COLOR_BLUE   glm::vec3(0.0f, 0.0f, 1.0f)
+#define COLOR_YELLOW glm::vec3(1.0f, 1.0f, 0.0f)
+#define COLOR_ORANGE glm::vec3(1.0f, 0.6f, 0.0f)
+
 class Planet {
 public:
   Planet(double mass, float radius, uint8_t color);
@@ -18,6 +24,8 @@ public:
   double getMass() const;
   glm::dvec3 getPos() const;
   glm::dvec3 getVel() const;
+  glm::vec3 getColor() const;
+  float getRadius() const;
 
   // Cycles the color one increment to the next set
   void cycleColor();
@@ -35,7 +43,8 @@ private:
   glm::dvec3 vel;
 
   float radius;
-  glm::vec3 color;
+  uint8_t color;
+  const static glm::vec3 colorArr[];
 };
 
 #endif //FINALPROJECT_PLANET_H

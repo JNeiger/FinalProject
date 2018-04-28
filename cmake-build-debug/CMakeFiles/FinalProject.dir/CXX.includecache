@@ -9,6 +9,10 @@
 ../include/Camera.h
 iostream
 -
+thread
+-
+mutex
+-
 glad/glad.h
 -
 glfw/glfw3.h
@@ -24,6 +28,8 @@ glm/glm.hpp
 
 ../include/Simulator.h
 vector
+-
+mutex
 -
 Planet.h
 ../include/Planet.h
@@ -2247,6 +2253,14 @@ Simulator.h
 D:/School/Homework/ECE_4122/Project/FinalProject/Simulator.h
 algorithm
 -
+iostream
+-
+thread
+-
+chrono
+-
+glfw/glfw3.h
+-
 
 D:/School/Homework/ECE_4122/Project/FinalProject/include/shader.h
 glad/glad.h
@@ -2264,6 +2278,10 @@ iostream
 
 D:/School/Homework/ECE_4122/Project/FinalProject/main.cpp
 iostream
+-
+thread
+-
+mutex
 -
 glad/glad.h
 -

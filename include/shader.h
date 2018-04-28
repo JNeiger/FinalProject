@@ -29,6 +29,7 @@ public:
   void setInt(const std::string &name, int value) const;
   void setFloat(const std::string &name, float value) const;
   void set2Float(const std::string &name, float value1, float value2) const;
+  void set3Float(const std::string &name, float value1, float value2,  float value3) const;
   void setMat4(const std::string &name, glm::mat4 &mat) const;
 
 private:

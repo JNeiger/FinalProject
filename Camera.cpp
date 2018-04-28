@@ -19,16 +19,17 @@ float curX = WINDOW_WIDTH / 2.0f;
 float curY = WINDOW_WIDTH / 2.0f;
 bool rotateMode = false;
 
-float radius = 5;
+float radius = 40;
 
 int selected = -1;
 
 void updateCamera() {
   glm::vec3 front;
+
   front.x = (float) (cos(glm::radians(yaw)) * cos(glm::radians(pitch)));
   front.y = (float) sin(glm::radians(pitch));
   front.z = (float) (sin(glm::radians(yaw)) * cos(glm::radians(pitch)));
-  cameraPos = glm::normalize(front) * radius;
+  cameraPos = origin + glm::normalize(front) * radius;
 }
 
 void scroll_callback(GLFWwindow *window, double xoffset, double yoffset) {
@@ -145,9 +146,11 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
     int closestInd = -1;
     float closestDist = 100;
     for (int i = 0; i < sim.planets.size(); i++) {
+      simMutex.lock();
       glm::mat4 model(1.0f);
       model = glm::translate(model, (glm::vec3) sim.planets.at(i).getPos());
       glm::vec4 screenLoc = projection * view * model * glm::vec4(glm::vec3(0.0f), 1.0f);
+      simMutex.unlock();
 
       // Scale the mouse location to -1 to 1
       // Scale the screen loc by the w vector (Happens automatically in vertex shader)
@@ -172,10 +175,12 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
     //    Move the planet in the position parallel to the "Face" of the camera
     //    We have Up and Right camera vector so just doing a multiple of those should work
 
+    simMutex.lock();
     glm::vec3 planeNorm = glm::normalize(cameraPos - origin);
     float dist = 0;
     glm::intersectRayPlane(cameraPos, ray_wor, (glm::vec3) sim.planets.at(selected).getPos(), planeNorm, dist);
     sim.planets.at(selected).setPos(cameraPos + dist*ray_wor);
+    simMutex.unlock();
 
   } else if (clickType == CONTROL_CLICK_DRAG && selected != -1) {
     // Shift click and drag is setting the velocity of the planet
@@ -183,10 +188,14 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
     //    Similar to the position, but it draws a line instead from planet to mouse pos
     //    Golf it style
 
+    simMutex.lock();
     glm::vec3 planeNorm = glm::normalize(cameraPos - origin);
     float dist = 0;
     glm::intersectRayPlane(cameraPos, ray_wor, (glm::vec3) sim.planets.at(selected).getPos(), planeNorm, dist);
-    sim.planets.at(selected).setVel(cameraPos + dist*ray_wor);
+    glm::vec3 diff = (cameraPos + dist*ray_wor) - (glm::vec3)sim.planets.at(selected).getPos();
+
+    sim.planets.at(selected).setVel(diff*.00001f);
+    simMutex.unlock();
   }
 }
 
@@ -204,7 +213,10 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
   // State machine to only execute stuff on the first instance of the pressed key
   static bool KEY_KP_ADD_IS_PRESSED = false;
   static bool KEY_KP_SUBTRACT_IS_PRESSED = false;
-  static bool KEY_C_IS_PRESSED = false;
+  static bool KEY_C_IS_PRESSED = false; // Color shift
+  static bool KEY_N_IS_PRESSED = false; // New planet
+  static bool KEY_D_IS_PRESSED = false; // Delete planet
+  static bool KEY_S_IS_PRESSED = false; // Start sim
 
   if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
     glfwSetWindowShouldClose(window, true);
@@ -213,8 +225,9 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
   // ADD: Increase mass of selected planet
   if (glfwGetKey(window, GLFW_KEY_KP_ADD) == GLFW_PRESS) {
     if (selected != -1 && !KEY_KP_ADD_IS_PRESSED) {
+      simMutex.lock();
       sim.planets.at(selected).setMass(sim.planets.at(selected).getMass() * 1.1);
-      sim.planets.at(selected).setPos(sim.planets.at(selected).getPos() + glm::dvec3(1.0, 1.0, 1.0));
+      simMutex.unlock();
     }
 
     KEY_KP_ADD_IS_PRESSED = true;
@@ -225,8 +238,10 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
   // SUBTRACT: Decrease mass of selected planet
   if (glfwGetKey(window, GLFW_KEY_KP_SUBTRACT) == GLFW_PRESS) {
     if (selected != -1 && !KEY_KP_SUBTRACT_IS_PRESSED) {
+      simMutex.lock();
       sim.planets.at(selected).setMass(sim.planets.at(selected).getMass() * 0.9);
-      sim.planets.at(selected).setPos(sim.planets.at(selected).getPos() - glm::dvec3(1.0, 1.0, 1.0));
+      simMutex.unlock();
+      std::cout << "Mass decreasing" << std::endl;
     }
 
     KEY_KP_SUBTRACT_IS_PRESSED = true;
@@ -237,12 +252,25 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
   // C: Cycle colors of the selected planet
   if (glfwGetKey(window, GLFW_KEY_C) == GLFW_PRESS) {
     if (selected != -1 && !KEY_C_IS_PRESSED) {
+      simMutex.lock();
       sim.planets.at(selected).cycleColor();
+      simMutex.unlock();
     }
 
     KEY_C_IS_PRESSED = true;
   } else if (glfwGetKey(window, GLFW_KEY_C) == GLFW_RELEASE) {
     KEY_C_IS_PRESSED = false;
+  }
+
+  // C: Cycle colors of the selected planet
+  if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS) {
+    if (!KEY_S_IS_PRESSED && simThread == nullptr && !KEY_S_IS_PRESSED) {
+      simThread = new std::thread(simulatorThread);
+    }
+
+    KEY_S_IS_PRESSED = true;
+  } else if (glfwGetKey(window, GLFW_KEY_S) == GLFW_RELEASE) {
+    KEY_S_IS_PRESSED = false;
   }
 
   if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS) {

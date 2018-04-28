@@ -4,6 +4,32 @@
 
 #include "Simulator.h"
 #include <algorithm>
+#include <iostream>
+#include <thread>
+#include <chrono>
+#include <glfw/glfw3.h>
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wmissing-noreturn"
+void simulatorThread() {
+  std::cout << "Sim thread started" << std::endl;
+
+  while (true) {
+    float startTime = glfwGetTime();
+    simMutex.lock();
+    sim.step();
+    simMutex.unlock();
+    float diff = glfwGetTime() - startTime;
+
+    //std::this_thread::sleep_for(std::chrono::seconds(5));
+    if (diff < sim.timeStep) {
+      // How much faster than real time to run
+      float scale = 0.5;
+      std::this_thread::sleep_for(std::chrono::nanoseconds((long)((sim.timeStep - diff) * 1000000000 / scale)));
+    }
+  }
+}
+#pragma clang diagnostic pop
 
 Simulator::Simulator(double dt) : timeStep(dt){}
 
@@ -38,10 +64,19 @@ void Simulator::step() {
         // This line above gives an error but it's not actually an error
         // It's just intellisense blowing up
 
+        // Make sure nothing blows up when they get too close
+        distance = std::max(0.1, distance);
+
         // F = G*m*m / d^2 * dir_(us to them)
         netForce.at(i) += glm::normalize(direction) * G*ourMass*theirMass / (distance*distance);
       }
     }
+  }
 
+  for (int i = 0; i < planets.size(); i++) {
+    glm::dvec3 vel = planets.at(i).getVel();
+    glm::dvec3 accel = netForce.at(i) / planets.at(i).getMass();
+    planets.at(i).setPos(planets.at(i).getPos() + vel);
+    planets.at(i).setVel(vel + accel);
   }
 }

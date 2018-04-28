@@ -4,7 +4,10 @@
 
 #include "Planet.h"
 
-Planet::Planet(double mass, float radius, uint8_t color) : mass(mass), radius(radius) {
+const glm::vec3 Planet::colorArr[] =
+    {COLOR_RED, COLOR_BLUE, COLOR_GREEN, COLOR_YELLOW, COLOR_ORANGE};
+
+Planet::Planet(double mass, float radius, uint8_t color) : mass(mass), radius(radius), color(color) {
   // TODO: Set up the colors
 }
 
@@ -32,8 +35,16 @@ glm::dvec3 Planet::getVel() const {
   return vel;
 }
 
+glm::vec3 Planet::getColor() const {
+  return colorArr[color];
+}
+
+float Planet::getRadius() const {
+  return radius;
+}
+
 void Planet::cycleColor() {
-  // TODO: Cycle colors
+  color = ++color % 5;
 }
 
 // Called every timestep
