@@ -165,7 +165,7 @@ void mouse_button_callback(GLFWwindow *window, int button, int action, int modes
     }
 
     // Only select a planet if it is close enough to the cursor
-    if (closestDist < 0.2)
+    if (closestDist < 1)
       selected = closestInd;
     else
       selected = -1;
@@ -204,15 +204,10 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
   // Try something like checking if GLFW_REPEATED is not true?
 
   // TODO: Set camera to specific positions based on a few select number keys
-  // TODO: On some specific key press, start running sim
-  //      Split sim into own thread and do a really simple producer-consumer type solution to transfer data
-  //      Disable most other keypresses while this is going
-  //      Maybe add a pause?
-  //      Drawing should be about the same no matter what
 
   // State machine to only execute stuff on the first instance of the pressed key
-  static bool KEY_KP_ADD_IS_PRESSED = false;
-  static bool KEY_KP_SUBTRACT_IS_PRESSED = false;
+  static bool KEY_Q_IS_PRESSED = false;
+  static bool KEY_A_IS_PRESSED = false;
   static bool KEY_C_IS_PRESSED = false; // Color shift
   static bool KEY_N_IS_PRESSED = false; // New planet
   static bool KEY_D_IS_PRESSED = false; // Delete planet
@@ -223,30 +218,29 @@ void keyboard_callback(GLFWwindow *window, int &pwr, int &mode) {
   }
 
   // ADD: Increase mass of selected planet
-  if (glfwGetKey(window, GLFW_KEY_KP_ADD) == GLFW_PRESS) {
-    if (selected != -1 && !KEY_KP_ADD_IS_PRESSED) {
+  if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_PRESS) {
+    if (selected != -1 && !KEY_Q_IS_PRESSED) {
       simMutex.lock();
       sim.planets.at(selected).setMass(sim.planets.at(selected).getMass() * 1.1);
       simMutex.unlock();
     }
 
-    KEY_KP_ADD_IS_PRESSED = true;
-  } else if (glfwGetKey(window, GLFW_KEY_KP_ADD) == GLFW_RELEASE) {
-    KEY_KP_ADD_IS_PRESSED = false;
+    KEY_Q_IS_PRESSED = true;
+  } else if (glfwGetKey(window, GLFW_KEY_Q) == GLFW_RELEASE) {
+    KEY_Q_IS_PRESSED = false;
   }
 
   // SUBTRACT: Decrease mass of selected planet
-  if (glfwGetKey(window, GLFW_KEY_KP_SUBTRACT) == GLFW_PRESS) {
-    if (selected != -1 && !KEY_KP_SUBTRACT_IS_PRESSED) {
+  if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS) {
+    if (selected != -1 && !KEY_A_IS_PRESSED) {
       simMutex.lock();
       sim.planets.at(selected).setMass(sim.planets.at(selected).getMass() * 0.9);
       simMutex.unlock();
-      std::cout << "Mass decreasing" << std::endl;
     }
 
-    KEY_KP_SUBTRACT_IS_PRESSED = true;
-  } else if (glfwGetKey(window, GLFW_KEY_KP_SUBTRACT) == GLFW_RELEASE) {
-    KEY_KP_SUBTRACT_IS_PRESSED = false;
+    KEY_A_IS_PRESSED = true;
+  } else if (glfwGetKey(window, GLFW_KEY_A) == GLFW_RELEASE) {
+    KEY_A_IS_PRESSED = false;
   }
 
   // C: Cycle colors of the selected planet

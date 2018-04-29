@@ -37,7 +37,11 @@ public:
 
   bool operator==(const Planet &rhs);
 
+protected:
+  int id;
+
 private:
+  static int idCtr;
   double mass;
   glm::dvec3 pos;
   glm::dvec3 vel;

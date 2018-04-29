@@ -7,8 +7,10 @@
 const glm::vec3 Planet::colorArr[] =
     {COLOR_RED, COLOR_BLUE, COLOR_GREEN, COLOR_YELLOW, COLOR_ORANGE};
 
-Planet::Planet(double mass, float radius, uint8_t color) : mass(mass), radius(radius), color(color) {
-  // TODO: Set up the colors
+int Planet::idCtr = 0;
+
+Planet::Planet(double mass, float radius, uint8_t color) : mass(mass), radius(radius), color(color), id(idCtr) {
+  idCtr++;
 }
 
 void Planet::setMass(double newMass) {
@@ -59,5 +61,5 @@ bool Planet::operator==(const Planet &rhs) {
   // They should never have the same location otherwise the simulator will break
   // so this should work, if not, we can assign ID's to each planet and do it
   // the right way
-  return mass == rhs.getMass() && pos == rhs.getPos();
+  return id == rhs.id;
 }
